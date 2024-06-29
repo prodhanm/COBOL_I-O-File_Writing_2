@@ -40,4 +40,6 @@ Here is a representation of the calculation:
 
 So why is it that the read input is the last part of the program?
 
-The answer is simple. The program has to perform the record read and count. How will it know to do that. It has to be at the end of the program, when we have established that the program starts from there and has to perform the read function, then it must close out the file and go to the write function, to write to their respective files and perform the count via the input PERFORM-THRU statements in the conditional logic. 
+The answer is simple. The program has to perform the record read and count. How will it know to do that. It has to be at the end of the program, when we have established that the program starts from there and has to perform the read function, then it must close out the file and go to the write function, to write to their respective files and perform the count via the input PERFORM-THRU statements in the conditional logic to start adding +1 to the count. 
+
+To get a detailed look at the process, go to the Lab on the ISPF and type 'B' by the file. It will give you a breakdown with what each code is doing and how. This is a great analytical tool for debugging.
